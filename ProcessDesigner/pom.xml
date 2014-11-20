@@ -5,6 +5,7 @@
 		<groupId>org.hekmatof</groupId>
 		<artifactId>ActivitiPOCParrent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../ActivitiPOCParrent</relativePath>
 	</parent>
 	<artifactId>ProcessDesigner</artifactId>
 
@@ -16,17 +17,17 @@
 		<dependency>
 			<groupId>org.activiti</groupId>
 			<artifactId>activiti-engine</artifactId>
-			<version>5.16</version>
+			<version>5.16.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.activiti</groupId>
 			<artifactId>activiti-bpmn-converter</artifactId>
-			<version>5.16</version>
+			<version>5.16.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.activiti</groupId>
 			<artifactId>activiti-json-converter</artifactId>
-			<version>5.16</version>
+			<version>5.16.4</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>
